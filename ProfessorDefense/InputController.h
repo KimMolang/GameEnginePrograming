@@ -26,4 +26,14 @@ private:
 	Ogre::SceneManager* mSceneMgr;
 	OIS::Keyboard* mKeyboard;
 	OIS::Mouse* mMouse;
+
+	SceneNode* mCameraHolder;
+	SceneNode* mCameraYaw;
+	SceneNode* mCameraPitch;
+
+private :
+	static const float CAMERA_MOVE_SPEED;
+
+	bool mKeyDown_W, mKeyDown_A, mKeyDown_S, mKeyDown_D;
+	bool mKeyDown_MouseL;
 };

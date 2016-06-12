@@ -22,16 +22,19 @@
     <Filter Include="소스 파일\00. Mgr\InputController">
       <UniqueIdentifier>{12e6cbd7-1c36-49e3-b6e6-cd0fb16962d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\02. Main">
+      <UniqueIdentifier>{f729b505-7d2d-4c61-a4a2-4bc4420e91e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="GameMgr.cpp">
       <Filter>소스 파일\00. Mgr\GameMgr</Filter>
     </ClCompile>
     <ClCompile Include="InputController.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\00. Mgr\InputController</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\02. Main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -53,7 +56,10 @@
       <Filter>소스 파일\00. Mgr\GameMgr</Filter>
     </ClInclude>
     <ClInclude Include="InputController.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\00. Mgr\InputController</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>소스 파일\02. Main</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
